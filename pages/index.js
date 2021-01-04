@@ -38,9 +38,9 @@ export default function Index(lazyProps) {
             <TrackPageView />
             <div className={classes.main}>
               <Typography variant="h3" component="h1" gutterBottom color="primary">
-                {state.pageData.slots.heading}
+                Welcome to Mech Deals
               </Typography>
-              <CmsSlot>{state.pageData.slots.description}</CmsSlot>
+              <CmsSlot>Here you can find our basic store application. for all kinds of spare parts. Jadoo brothers</CmsSlot>
             </div>
           </>
         )}

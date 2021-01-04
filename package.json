@@ -21,11 +21,6 @@
     "xdn:update": "npm i --save @xdn/core@latest @xdn/next@latest @xdn/cli@latest @xdn/prefetch@latest",
     "reinstall": "rm -rf node_modules && npm i --prefer-offline"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yalc remove --all && lint-staged"
-    }
-  },
   "dependencies": {
     "@material-ui/core": "4.11.2",
     "@material-ui/icons": "4.11.2",
