@@ -2,8 +2,7 @@ name: Deploy branch to XDN
 
 on:
   push:
-  release:
-    types: [published]
+    branches: [ master ]
 
 jobs:
   dependencies:
