@@ -11,8 +11,7 @@ jobs:
     strategy:
       matrix:
         node-version: [11.x]
-
     steps:
-      - run: npm ci
+      - run: xdn init
       - name: Deploy to XDN
-        run: npm run deploy --team=$TEAM --token=$TOKEN
+        run: xdn deploy --team=nikhil-mahajan --token=Pk4fbb7tWjM8kYg1rHPqPjYi
